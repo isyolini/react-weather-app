@@ -31,14 +31,15 @@ export default function Weather() {
         <li>Clear</li>
       </ul>
 
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="clear day icon"
             className="icon"
           />
-          27ºC
+          <span className="temperature">27</span>
+          <span className="unit">ºC | ºF</span>
         </div>
 
         <div className="col-6">
